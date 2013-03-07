@@ -13874,6 +13874,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $str</string>
+				<string>[ string $charlist ]</string>
 			</array>
 		</dict>
 		<dict>
@@ -20489,6 +20490,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $str</string>
+				<string>[ string $charlist ]</string>
 			</array>
 		</dict>
 		<dict>
@@ -25138,6 +25140,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $str</string>
+				<string>[ string $charlist ]</string>
 			</array>
 		</dict>
 		<dict>
