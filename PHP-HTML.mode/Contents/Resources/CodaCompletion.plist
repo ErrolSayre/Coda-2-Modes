@@ -12934,6 +12934,9 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $json</string>
+				<string>[ bool $assoc = false ]</string>
+				<string>[ int $depth = 512 ]</string>
+				<string>[ int $options = JSON_BIGINT_AS_STRING ]</string>
 			</array>
 		</dict>
 		<dict>
@@ -12948,6 +12951,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>mixed $value</string>
+				<string>[ int $options = JSON_HEX_QUOT | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_FORCE_OBJECT | JSON_UNESCAPED_UNICODE ]</string>
 			</array>
 		</dict>
 		<dict>
