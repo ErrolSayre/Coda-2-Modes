@@ -5717,7 +5717,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $filename</string>
-				<string>[ int $flags = FILE_USE_INCLUDE_PATH | FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES ]</string>
+				<string>[ int $flags = 0 | FILE_USE_INCLUDE_PATH | FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES ]</string>
 				<string>[ resource $context ]</string>
 			</array>
 		</dict>
@@ -5888,6 +5888,8 @@
 			<array>
 				<string>string $filename</string>
 				<string>mixed $data</string>
+				<string>[ int $flags = 0 | FILE_USE_INCLUDE_PATH | FILE_APPEND | LOCK_EX ]</string>
+				<string>[ resource $context ]</string>
 			</array>
 		</dict>
 		<dict>
@@ -12951,7 +12953,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>mixed $value</string>
-				<string>[ int $options = JSON_HEX_QUOT | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_FORCE_OBJECT | JSON_UNESCAPED_UNICODE ]</string>
+				<string>[ int $options = 0 | JSON_HEX_QUOT | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_FORCE_OBJECT | JSON_UNESCAPED_UNICODE ]</string>
 			</array>
 		</dict>
 		<dict>
@@ -23453,6 +23455,8 @@
 			<array>
 				<string>string $input</string>
 				<string>int $pad_length</string>
+				<string>[ string $pad_string = " " ]</string>
+				<string>[int $pad_type = STR_PAD_RIGHT | STR_PAD_LEFT | STR_PAD_BOTH ]</string>
 			</array>
 		</dict>
 		<dict>
@@ -23526,6 +23530,7 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $string</string>
+				<string>[ int $split_length = 1 ]</string>
 			</array>
 		</dict>
 		<dict>
@@ -23555,6 +23560,7 @@
 			<array>
 				<string>string $string</string>
 				<string>int $start</string>
+				<string>[ int $length ]</string>
 			</array>
 		</dict>
 		<dict>
