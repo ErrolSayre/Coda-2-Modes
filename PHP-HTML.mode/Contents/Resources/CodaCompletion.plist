@@ -14896,6 +14896,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>memory_get_usage</string>
+			<key>String</key>
+			<string>memory_get_usage</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{17, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>[ bool $real_usage = false ]</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>method_exists</string>
 			<key>String</key>
 			<string>method_exists</string>
