@@ -767,7 +767,7 @@
 					<regex>(\b@??field_tell) *\(</regex>
 					<regex>(\b@??file_exists) *\(</regex>
 					<regex>(\b@??file_get_contents) *\(</regex>
-					<regex>(\b@??file_set_contents) *\(</regex>
+					<regex>(\b@??file_put_contents) *\(</regex>
 					<regex>(\b@??fileatime) *\(</regex>
 					<regex>(\b@??filectime) *\(</regex>
 					<regex>(\b@??file) *\(</regex>
