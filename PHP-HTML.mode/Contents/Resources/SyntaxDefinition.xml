@@ -975,6 +975,7 @@
 					<regex>(\b@??gregoriantojd) *\(</regex>
 					<regex>(\b@??gzclose) *\(</regex>
 					<regex>(\b@??gzcompress) *\(</regex>
+					<regex>(\b@??gzdecode) *\(</regex>
 					<regex>(\b@??gzdeflate) *\(</regex>
 					<regex>(\b@??gzencode) *\(</regex>
 					<regex>(\b@??gzeof) *\(</regex>
