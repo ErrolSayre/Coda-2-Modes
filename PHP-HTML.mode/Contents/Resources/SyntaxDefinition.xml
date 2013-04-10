@@ -1464,6 +1464,8 @@
 					<regex>(\b@??join) *\(</regex>
 					<regex>(\b@??jpeg2wbmp) *\(</regex>
 					<regex>(\b@??juliantojd) *\(</regex>
+					<regex>(\b@??json_decode) *\(</regex>
+					<regex>(\b@??json_encode) *\(</regex>
 					<regex>(\b@??key_exists) *\(</regex>
 					<regex>(\b@??key) *\(</regex>
 					<regex>(\b@??kill) *\(</regex>
