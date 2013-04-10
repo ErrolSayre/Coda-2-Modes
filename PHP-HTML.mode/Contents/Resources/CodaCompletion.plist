@@ -5717,6 +5717,8 @@
 			<key>Parameters</key>
 			<array>
 				<string>string $filename</string>
+				<string>[ int $flags = FILE_USE_INCLUDE_PATH | FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES ]</string>
+				<string>[ resource $context ]</string>
 			</array>
 		</dict>
 		<dict>
