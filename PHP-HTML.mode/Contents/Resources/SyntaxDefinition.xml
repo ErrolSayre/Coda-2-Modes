@@ -1452,6 +1452,7 @@
 					<regex>(\b@??is_uploaded_file) *\(</regex>
 					<regex>(\b@??is_writable) *\(</regex>
 					<regex>(\b@??is_writeable) *\(</regex>
+					<regex>(\b@??isset) *\(</regex>
 					<regex>(\b@??java_last_exception_clear) *\(</regex>
 					<regex>(\b@??java_last_exception_get) *\(</regex>
 					<regex>(\b@??jddayofweek) *\(</regex>
