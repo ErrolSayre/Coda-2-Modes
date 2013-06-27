@@ -4558,7 +4558,7 @@
 			<key>String</key>
 			<string>echo</string>
 			<key>PostString</key>
-			<string>()</string>
+			<string> </string>
 			<key>SelectionRange</key>
 			<string>{5, 0}</string>
 			<key>Parameters</key>
@@ -11847,7 +11847,7 @@
 			<key>String</key>
 			<string>include</string>
 			<key>PostString</key>
-			<string>()</string>
+			<string> </string>
 			<key>SelectionRange</key>
 			<string>{8, 0}</string>
 			<key>Parameters</key>
@@ -11861,7 +11861,7 @@
 			<key>String</key>
 			<string>include_once</string>
 			<key>PostString</key>
-			<string>()</string>
+			<string> </string>
 			<key>SelectionRange</key>
 			<string>{13, 0}</string>
 			<key>Parameters</key>
@@ -19872,7 +19872,7 @@
 			<key>String</key>
 			<string>print</string>
 			<key>PostString</key>
-			<string>()</string>
+			<string> </string>
 			<key>SelectionRange</key>
 			<string>{6, 0}</string>
 			<key>Parameters</key>
@@ -20412,7 +20412,7 @@
 			<key>String</key>
 			<string>require</string>
 			<key>PostString</key>
-			<string>()</string>
+			<string> </string>
 			<key>SelectionRange</key>
 			<string>{8, 0}</string>
 			<key>Parameters</key>
@@ -20426,7 +20426,7 @@
 			<key>String</key>
 			<string>require_once</string>
 			<key>PostString</key>
-			<string>()</string>
+			<string> </string>
 			<key>SelectionRange</key>
 			<string>{13, 0}</string>
 			<key>Parameters</key>
