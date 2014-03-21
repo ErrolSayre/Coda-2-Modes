@@ -10,7 +10,7 @@
 
     <states>
     
-        <default id="Base" color="#000" background-color="#fff" font-weight="normal" font-style="normal">
+        <default id="Base" color="#000" background-color="#fff" font-weight="normal" font-style="normal" scope="meta.default">
             <keywords id="C Keywords" color="#881350" font-weight="bold" useforautocomplete="yes" scope="keyword">
 				<string>break</string>
 				<string>case</string>
@@ -60,8 +60,6 @@
                 <string>UInt32</string>
                 <string>UInt16</string>
                 <string>UInt8</string>
-                <string>NSUInteger</string>
-                <string>NSInteger</string>
             </keywords>
             
             <keywords id="Numbers" color="#00f" inverted-color="#5d56ff" useforautocomplete="no" scope="constant.numeric">
@@ -94,7 +92,7 @@
             <state id="DoxyGen Comment" type="comment" color="#236E25"  font-style="italic" scope="comment.doxygen.c">
                 <begin><regex>/\*[\*\!]</regex></begin>
                 <end><regex>\*/</regex></end>
-                <keywords id="DoxyGen Tags" color="#236E25" font-weight="bold" useforautocomplete="no">
+                <keywords id="DoxyGen Tags" color="#236E25" font-weight="bold" useforautocomplete="no" scope="comment.doxygen.c.tags">
                     <regex>(?&lt;=[^\w\d]|^)([@\\]\w+)</regex>
                 </keywords>
                 <import mode="Base" state="EmailAndURLContainerState" keywords-only="yes"/>
@@ -117,11 +115,15 @@
                 <end><regex>(?&lt;!\\)[\n\r]</regex></end>
                 <import mode="Base" state="EmailAndURLContainerState" keywords-only="yes"/>
             </state>
-            
-            <state id="String" type="string" color="#760f15" font-weight="normal" font-style="normal" foldable="no" scope="string.double.c">
+			
+            <state id="String" color="#760f15" font-weight="normal" font-style="normal" foldable="no" scope="string.double.c">
                 <begin><regex>"</regex></begin>
                 <end><regex>((?&lt;!\\)(\\\\)*)"</regex></end>
             </state>
+			
+			<!-- <keywords id="Framwork Include" color="#760f15" font-weight="normal" font-style="normal" foldable="no" scope="language.variable.string">
+				<regex>(&lt;[^&gt;]+&gt;)</regex>
+			</keywords> -->
 
             <state id="Block" type="block" foldable="yes" scope="meta.block.curly">
                 <begin><regex>{</regex></begin>

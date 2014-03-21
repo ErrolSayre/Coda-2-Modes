@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>SEEMode.bash</string>
+	<string>SEEMode.CoffeeScript</string>
 	<key>CFBundleName</key>
-	<string>bash</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>© 2009 TheCodingMonkeys
-http://www.codingmonkeys.de</string>
+	<string>CoffeeScript</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.5</string>
+	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>3.5</string>
+	<string>1.0.0</string>
 	<key>CFBundleGetInfoString</key>
-	<string>3.5, Copyright TheCodingMonkeys 2009</string>
+	<string>1.0.0, Copyright Casey Foster 2012 (originally by Sean Durhamn 2010)</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleInfoDictionaryVersion</key>
