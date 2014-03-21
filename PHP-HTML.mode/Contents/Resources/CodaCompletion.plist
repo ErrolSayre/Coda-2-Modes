@@ -1448,6 +1448,366 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>bzflush</string>
+			<key>String</key>
+			<string>bzflush</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>resource $bz</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>bzopen</string>
+			<key>String</key>
+			<string>bzopen</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $filename</string>
+				<string>string $mode</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>bzread</string>
+			<key>String</key>
+			<string>bzread</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>resource $bz</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>bzwrite</string>
+			<key>String</key>
+			<string>bzwrite</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>resource $bz</string>
+				<string>string $data</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>call_user_func</string>
+			<key>String</key>
+			<string>call_user_func</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{15, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>callback $function</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>call_user_func_array</string>
+			<key>String</key>
+			<string>call_user_func_array</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{21, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>callback $function</string>
+				<string>array $param_arr</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>cal_days_in_month</string>
+			<key>String</key>
+			<string>cal_days_in_month</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{18, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>int $calendar</string>
+				<string>int $month</string>
+				<string>int $year</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>cal_from_jd</string>
+			<key>String</key>
+			<string>cal_from_jd</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>int $jd</string>
+				<string>int $calendar</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>cal_info</string>
+			<key>String</key>
+			<string>cal_info</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{9, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>cal_to_jd</string>
+			<key>String</key>
+			<string>cal_to_jd</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>int $calendar</string>
+				<string>int $month</string>
+				<string>int $day</string>
+				<string>int $year</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ceil</string>
+			<key>String</key>
+			<string>ceil</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>float $value</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>chdir</string>
+			<key>String</key>
+			<string>chdir</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $directory</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>checkdate</string>
+			<key>String</key>
+			<string>checkdate</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{10, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>int $month</string>
+				<string>int $day</string>
+				<string>int $year</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>checkdnsrr</string>
+			<key>String</key>
+			<string>checkdnsrr</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{11, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $host</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>chgrp</string>
+			<key>String</key>
+			<string>chgrp</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $filename</string>
+				<string>mixed $group</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>chmod</string>
+			<key>String</key>
+			<string>chmod</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $filename</string>
+				<string>int $mode</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>chop</string>
+			<key>String</key>
+			<string>chop</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{5, 0}</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>chown</string>
+			<key>String</key>
+			<string>chown</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $filename</string>
+				<string>mixed $user</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>chr</string>
+			<key>String</key>
+			<string>chr</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{4, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>int $ascii</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>chroot</string>
+			<key>String</key>
+			<string>chroot</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{7, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $directory</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>chunk_split</string>
+			<key>String</key>
+			<string>chunk_split</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $body</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>class</string>
+			<key>String</key>
+			<string>class</string>
+			<key>PostString</key>
+			<string> </string>
+			<key>SelectionRange</key>
+			<string>{6, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>classname</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>class_alias</string>
+			<key>String</key>
+			<string>class_alias</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{12, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $original</string>
+				<string>string $alias</string>
+				<string>[ bool $autoload = TRUE ]</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>class_exists</string>
+			<key>String</key>
+			<string>class_exists</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{13, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $class_name</string>
+				<string>[ bool $autoload = TRUE ]</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>class_implements</string>
+			<key>String</key>
+			<string>class_implements</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{17, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $class</string>
+				<string>[ bool $autoload = TRUE ]</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>classkit_import</string>
 			<key>String</key>
 			<string>classkit_import</string>
@@ -11525,6 +11885,20 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>ini_get</string>
+			<key>String</key>
+			<string>ini_get</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{8, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>string $varname</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>ini_set</string>
 			<key>String</key>
 			<string>ini_set</string>
@@ -14054,6 +14428,35 @@
 			<key>Parameters</key>
 			<array>
 				<string>bool $on_off</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>memory_get_usage</string>
+			<key>String</key>
+			<string>memory_get_usage</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{17, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>[ bool $real_usage = false ]</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>method_exists</string>
+			<key>String</key>
+			<string>method_exists</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>SelectionRange</key>
+			<string>{14, 0}</string>
+			<key>Parameters</key>
+			<array>
+				<string>mixed $object</string>
+				<string>string $method_name</string>
 			</array>
 		</dict>
 		<dict>
